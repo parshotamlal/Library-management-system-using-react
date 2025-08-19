@@ -31,15 +31,8 @@ It allows users to browse, add, update, and remove books with categories, rating
 💾 LocalStorage – Data persistence
 
 📂 Project Structure
-src/
- ├── components/        # Reusable UI components (Navbar, BookCard, Toast, etc.)
- ├── pages/             # Application pages (Home, Browse, AddBook, etc.)
- ├── redux/             # Redux slices & middleware
- │     ├── booksSlice.js
- │     └── uiSlice.js
- ├── App.jsx            # Main app with routes
- ├── main.jsx           # React entry + Redux store
- └── index.css          # TailwindCSS styles
+<img width="1043" height="227" alt="image" src="https://github.com/user-attachments/assets/1d665be7-73b6-4208-9612-b6096473977d" />
+
 
 ⚙️ Installation
 
