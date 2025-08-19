@@ -1,6 +1,6 @@
-##Advanced Online Library##
+## Library Management System ##
 
-##An advanced online library management application built with React (Vite), Redux Toolkit, and TailwindCSS.
+##An Library Management System application built with React (Vite), Redux Toolkit, and TailwindCSS.
 It allows users to browse, add, update, and remove books with categories, ratings, and persistence using localStorage.##
 
 ---
