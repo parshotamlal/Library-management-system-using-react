@@ -6,8 +6,10 @@ export function CategoryChips({ categories }) {
       <NavLink
         to="/books"
         className={({ isActive }) =>
-          `px-3 py-1 rounded-full border text-sm ${
-            isActive ? "bg-blue-600 text-white" : "bg-gray-100 hover:bg-gray-200"
+          `px-3 py-1 rounded-full border text-sm transition-colors duration-200 ${
+            isActive
+              ? "bg-blue-600 text-white"
+              : " text-gray-900 hover:bg-gray-300"
           }`
         }
       >
@@ -18,10 +20,10 @@ export function CategoryChips({ categories }) {
           key={cat}
           to={`/books/${cat}`}
           className={({ isActive }) =>
-            `px-3 py-1 rounded-full border text-sm ${
+            `px-3 py-1 rounded-full border text-sm transition-colors duration-200 ${
               isActive
                 ? "bg-blue-600 text-white"
-                : "bg-gray-100 hover:bg-gray-200"
+                : " bg-blue-300 text-gray-900 hover:bg-gray-300"
             }`
           }
         >

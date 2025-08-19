@@ -117,7 +117,7 @@ export default function BrowseBooks() {
 
       {/* Book Grid */}
       {currentBooks.length === 0 ? (
-        <div className="rounded-xl border border-dashed p-8 text-center text-gray-500">
+        <div className="rounded-xl border border-dashed p-8 text-center text-black">
           No books found. Try adjusting your filters.
         </div>
       ) : (

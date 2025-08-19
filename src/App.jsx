@@ -7,6 +7,7 @@ import AddEditBook from './pages/AddEditBook'
 import {NotFound} from './pages/NotFound'
 import './App.css'
 import {Contact} from './pages/Contact'
+import {About} from './pages/About'
 function App(){
   return (
     <Routes>
@@ -19,7 +20,9 @@ function App(){
         <Route path="/edit/:id" element={<AddEditBook mode="edit" />} />
         <Route path="/404" element={<NotFound />} />
         <Route path="*" element={<Navigate to="/404" replace />} />
-        <Route Path ="/contact" element ={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+
       </Route>
     </Routes>
   

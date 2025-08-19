@@ -22,7 +22,7 @@ export default function Home(){
         <h2 className="text-xl font-semibold mb-3">Categories</h2>
         <div className="flex flex-wrap gap-2">
           {categories.map(c => (
-            <Link key={c} to={`/books/${encodeURIComponent(c)}`} className="px-3 py-1.5 rounded-2xl bg-gray-100">{c}</Link>
+            <Link key={c} to={`/books/${encodeURIComponent(c)}`} className="px-3 py-1.5 rounded-2xl bg-blue-400">{c}</Link>
           ))}
         </div>
       </section>
