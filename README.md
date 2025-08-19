@@ -1,9 +1,11 @@
-📚 Advanced Online Library
+##Advanced Online Library##
 
-An advanced online library management application built with React (Vite), Redux Toolkit, and TailwindCSS.
-It allows users to browse, add, update, and remove books with categories, ratings, and persistence using localStorage.
+##An advanced online library management application built with React (Vite), Redux Toolkit, and TailwindCSS.
+It allows users to browse, add, update, and remove books with categories, ratings, and persistence using localStorage.##
 
-🚀 Features
+---
+
+##🚀 Features##
 
 ✅ Browse Books by category, title, and author
 ✅ Add New Books with title, author, category, description, and rating
@@ -14,6 +16,7 @@ It allows users to browse, add, update, and remove books with categories, rating
 ✅ Responsive UI with TailwindCSS
 ✅ Preloaded Seed Data (e.g., The Great Gatsby, Dune, Gone Girl)
 
+---
 🛠️ Tech Stack
 
 ⚡ Vite
@@ -30,54 +33,75 @@ It allows users to browse, add, update, and remove books with categories, rating
 
 💾 LocalStorage – Data persistence
 
+
+------
+---
+
 📂 Project Structure
-<img width="1043" height="227" alt="image" src="https://github.com/user-attachments/assets/1d665be7-73b6-4208-9612-b6096473977d" />
+advanced-library/
+│── public/                  # Static assets (favicon, images, etc.)
+│
+│── src/
+│   ├── components/          # Reusable UI components
+│   │   ├── Header.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── BookCard.jsx
+│   │   ├── Toast.jsx
+│   │   ├── ToastHost.jsx
+│   │   ├── Modal.jsx
+│   │   ├── CategoryChips.jsx
+│   │   ├── Layout.jsx
+│   │   ├── RatingStar.jsx
+│   │   ├── SortSelect.jsx
+│   │   └── Pagination.jsx
+│
+│   ├── pages/               # Full-page views
+│   │   ├── Home.jsx
+│   │   ├── AddEditBook.jsx
+│   │   ├── BookDetails.jsx
+│   │   ├── About.jsx
+│   │   ├── BrowseBooks.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   └── Footer/          # (optional folder if footer needs multiple files)
+│
+│   ├── redux/               # Redux Toolkit slices + store
+│   │   ├── booksSlice.js
+│   │   ├── uiSlice.js
+│   │   └── store.js
+│
+│   ├── hooks/               # Custom React hooks
+│   │   └── useDebouncedValue.js
 
+---
 
-⚙️ Installation
+##⚙️ Installation##
 
 Clone the repo
 
-git clone https://github.com/your-username/advanced-online-library.git
-cd advanced-online-library
+git clone https://github.com/parshotamlal/Library-management-system-using-react.git
+cd Library-management-system-using-react
 
 
-Install dependencies
+##Install dependencies##
 
 npm install
 
 
-Run the development server
+##Run the development server##
 
 npm run dev
 
 
-Build for production
+##Build for production##
 
 npm run build
 
-🔥 Redux State Overview
+---
+##📬 Contact##
 
-booksSlice.js
+For queries or suggestions, feel free to reach out!
 
-addBook → Add new book
-
-updateBook → Update existing book
-
-removeBook → Delete book
-
-Persistence via booksPersistence middleware
-
-uiSlice.js
-
-showToast → Show a success/error message
-
-hideToast → Hide message
-
-Selectors
-
-selectAllBooks → All books list
-
-selectCategories → Unique categories
-
-selectBookById → Get book by ID
+Author: Parshotam Lal 
+Email: parshotamwork@gmail.com
